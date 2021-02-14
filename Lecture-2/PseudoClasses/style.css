@@ -1,0 +1,30 @@
+/* Pseudo Class */
+
+h1:hover {
+  border: 2px solid green;
+  background-color: aqua;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* Focus */
+
+input:focus {
+  background-color: palevioletred;
+}
+
+a[href='http://codingblocks.com']:visited
+{
+  color: red;
+}
+
+p::first-letter {
+  color: green;
+  font-size: 40px;
+  font-style: italic;
+}

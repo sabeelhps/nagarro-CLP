@@ -1,0 +1,16 @@
+/* Immediate Child Combinator */
+
+p > strong {
+  color: palevioletred;
+}
+
+/* Adjacent combinator */
+
+/* li + li {
+  background-color: aqua;
+} */
+
+/* General Sibling Combinator */
+li ~ li {
+  color: red;
+}

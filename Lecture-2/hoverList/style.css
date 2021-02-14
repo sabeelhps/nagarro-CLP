@@ -1,0 +1,25 @@
+div {
+  height: 120px;
+  width: 120px;
+  background-color: palevioletred;
+  border: 2px solid black;
+  display: block;
+}
+
+/* ul ul {
+  display: none;
+}
+
+li:hover > ul {
+  display: block;
+  cursor: pointer;
+} */
+
+#special {
+  height: 120px;
+  width: 120px;
+  border: 2px solid black;
+  /* background-color: rgb(200, 20, 10); */
+  /* background-color: rgba(200, 20, 10, 1); */
+  background-color: #2ec4b6;
+}

@@ -1,0 +1,18 @@
+/* Starts with */
+a[href^="http"] {
+  color: red;
+  border: 1px solid gray;
+}
+
+/* Ends with */
+
+a[href$="in"] {
+  background-color: orange;
+}
+
+/* Present anywhere */
+
+a[href*="coding"] {
+  text-transform: uppercase;
+  font-style: italic;
+}

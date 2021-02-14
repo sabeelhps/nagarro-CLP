@@ -1,0 +1,43 @@
+/* Universal Selector */
+
+* {
+  border: 1px solid gray;
+}
+
+/* Attribute Selector */
+
+a[href='http://google.com']
+{
+  color: red;
+}
+
+input[type="text"] {
+  background-color: greenyellow;
+}
+
+/* Decendant selector */
+
+ul li a {
+  color: palevioletred;
+}
+
+/* Adjacent Selector */
+
+ul + h4 {
+  border: 2px solid black;
+  background-color: cornflowerblue;
+}
+/* 
+#fruits li {
+  color: palevioletred;
+} */
+
+/* nth-of-type */
+
+/* #fruits li:nth-of-type(2n + 2) {
+  color: palevioletred;
+} */
+
+#fruits li:nth-of-type(odd) {
+  color: palevioletred;
+}

@@ -1,0 +1,31 @@
+/* Element Selector */
+
+h2 {
+  border: 2px solid black;
+  color: aqua;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: #2a9d8f;
+}
+
+/* id selector */
+#special {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: orange;
+}
+
+#another-id {
+  color: coral;
+}
+
+/* class selector */
+
+.hello {
+  text-decoration: line-through;
+  color: blue;
+}
