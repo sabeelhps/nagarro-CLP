@@ -1,0 +1,34 @@
+h1 {
+  background-color: darkkhaki;
+  border: 2px solid black;
+
+  display: inline;
+  /* width: 650px;
+  height: 500px;
+  margin: 50px;
+  padding: 50px; */
+}
+
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 40px;
+  padding: 50px;
+}
+
+div {
+  background-color: cadetblue;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 50px;
+  padding: 40px;
+}
+
+div:first-of-type {
+  display: none;
+}

@@ -1,0 +1,26 @@
+div {
+  font-size: 10px;
+}
+
+p {
+  font-size: 30px;
+}
+
+html {
+  font-size: 40px;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+section {
+  font-size: 20px;
+}
+
+#special {
+  border: 2px solid brown;
+  background-color: cornflowerblue;
+  height: 50vh;
+  width: 70vw;
+}

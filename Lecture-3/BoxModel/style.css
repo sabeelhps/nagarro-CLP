@@ -1,0 +1,23 @@
+p {
+  /* border */
+
+  border: 2px solid green;
+
+  /* height and width */
+
+  width: 200px;
+
+  /* margin */
+
+  /* margin: 50px 100px; */
+  /* margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px; */
+
+  margin: 0px auto;
+
+  /* Padding */
+
+  padding: 30px;
+}
