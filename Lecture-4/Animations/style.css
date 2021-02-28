@@ -1,0 +1,54 @@
+div {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: palevioletred;
+  /* animation-name: swing; */
+  /* animation-duration: 3s; */
+  /* animation-iteration-count: 2; */
+  /* animation-delay: 2s; */
+  /* animation-direction: normal; */
+  /* animation-fill-mode: backwards; */
+  animation: 3s 1s infinite normal swing;
+}
+
+/* @keyframes swing {
+  from {
+    height: 100px;
+    background-color: palevioletred;
+    width: 400px;
+  }
+  to {
+    height: 700px;
+    background-color: cornflowerblue;
+    width: 600px;
+  }
+} */
+
+@keyframes swing {
+  0% {
+    height: 100px;
+    background-color: palevioletred;
+    width: 400px;
+  }
+  25% {
+    height: 200px;
+    background-color: palegoldenrod;
+    width: 200px;
+  }
+  50% {
+    height: 300px;
+    background-color: purple;
+    width: 500px;
+  }
+  75% {
+    height: 600px;
+    background-color: slateblue;
+    width: 300px;
+  }
+  100% {
+    height: 700px;
+    background-color: teal;
+    width: 500px;
+  }
+}

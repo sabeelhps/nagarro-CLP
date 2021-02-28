@@ -1,0 +1,11 @@
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p:hover {
+  overflow: scroll;
+  text-overflow: clip;
+  cursor: pointer;
+}

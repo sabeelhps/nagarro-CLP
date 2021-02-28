@@ -1,0 +1,30 @@
+figure {
+  border: 1px solid #ccc;
+  width: 285px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  box-shadow: 2px 3px 2px #ccc, -1px 3px 2px #ccc;
+  transition: 100ms;
+}
+
+figcaption h2 {
+  color: #1d3557;
+}
+
+figcaption button {
+  padding: 5px 30px;
+}
+button {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+article figure img {
+  height: 400px;
+}
+
+figure:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
