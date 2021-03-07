@@ -1,0 +1,174 @@
+Hello World!!
+console.warn('This is a Warning')
+VM250:1 This is a Warning
+(anonymous) @ VM250:1
+undefined
+console.error('This is a JS error')
+VM276:1 This is a JS error
+(anonymous) @ VM276:1
+undefined
+console.dir('Hello World!!');
+VM304:1 Hello World!!
+undefined
+
+/////////////////////////////////////////////////////////
+
+100/0
+Infinity
+0/0
+NaN
+350+0/0
+NaN
+2*3+1+10/2+2**3
+20
+
+//////////////////////////////////////////////////////////
+
+let str = "Hello World";
+undefined
+str
+"Hello World"
+let str1='This is a String';
+undefined
+str1
+"This is a String"
+str.length
+11
+str1.length
+16
+
+///////////////////////////////////////////////////////////////////
+
+let str = "This is a "String" ";
+VM879:1 Uncaught SyntaxError: Unexpected identifier
+let str = "This is a \"String\" ";
+undefined
+str
+"This is a "String" "
+str[0]
+"T"
+str[1]
+"h"
+str[2]
+"i"
+str[3]
+"s"
+str[str.length-1]
+" "
+str[99];
+undefined
+typeof 3
+"number"
+typeof 3.6578
+"number"
+typeof -3.6578
+"number"
+typeof "Hello"
+"string"
+typeof true
+"boolean"
+typeof undefined
+"undefined"
+typeof null
+"object"
+
+////////////////////////////////////////////////////////////////
+
+parseInt(3.14);
+3
+parseInt(56.147689);
+56
+parseInt("99999");
+99999
+parseInt("99999asjdhasmjdbjhasbd");
+99999
+parseFloat(56.6578);
+56.6578
+parseFloat("56.67238");
+56.67238
+parseFloat("56.67238shgjdgkjhskjl");
+56.67238
+
+
+///////////////////////////////FUNCTION CHAINING/////////////////
+
+let msg = "     Leave me alone I hate u plzz        ";
+undefined
+msg
+"     Leave me alone I hate u plzz        "
+let angryMsg = msg.trim().toUpperCase()
+undefined
+angryMsg
+"LEAVE ME ALONE I HATE U PLZZ"
+
+/////////////////////////////////////////////////////////////
+
+let str = "Hello World";
+undefined
+str
+"Hello World"
+str.substr(2);
+"llo World"
+str.substr(2,5);
+"llo W"
+str
+"Hello World"
+str.substr(-6,3);
+" Wo"
+
+//////////////////////////////////////////////////////
+
+let str ="Hello World";
+undefined
+str.substring()
+"Hello World"
+str.substring(3);
+"lo World"
+str.substring(3,7);
+"lo W"
+str.substring(5,3);
+"lo"
+
+
+////////////////////////////////////////////////////////////
+
+let str ="Hello World";
+undefined
+str
+"Hello World"
+str.indexOf('l');
+2
+str.indexOf('l',2);
+2
+str.indexOf('l',3);
+3
+str.indexOf('l',5);
+9
+let msg = "This is a cat";
+undefined
+msg.indexOf('cat')
+10
+msg.indexOf('dog')
+-1
+
+/////////////////////////////////////////////////////////////
+
+let str = "Hello";
+undefined
+str 
+"Hello"
+str.replace('l','x');
+"Hexlo"
+str.replaceAll('l','x');
+"Hexxo"
+
+//////////////////////////////////////////////////////////////
+
+let msg = 'This is a Random msg';
+undefined
+msg
+"This is a Random msg"
+msg.includes('Random');
+true
+msg.includes('Randomsdgh');
+false

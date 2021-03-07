@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #0077b6;
+  box-shadow: 0px 2px 3px rgb(30, 30, 150);
+}
+
+.navbar i {
+  color: white;
+  font-size: 2rem;
+}
+
+.carousel-item {
+  height: 50vh;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 2px 3px rgb(104, 104, 104);
+}
+
+.card .btn {
+  background-color: #99d98c;
+  border: none;
+}
+
+.banner {
+  margin-top: 4rem;
+}
