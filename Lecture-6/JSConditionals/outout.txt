@@ -1,0 +1,20 @@
+2<3
+true
+2>3
+false
+98==98
+true
+98==99
+false
+1!=2
+true
+'Hello' == 'Hello';
+true
+'Hello' == 'Hellohgdj';
+false
+'1' == 1
+true
+'1' === 1
+false
+'' == 0
+true

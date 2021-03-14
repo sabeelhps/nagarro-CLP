@@ -1,0 +1,120 @@
+let a =[1,2,3,4,5];
+undefined
+a[2];
+3
+a[2]=48;
+48
+a
+(5) [1, 2, 48, 4, 5]
+
+let randomArray = [1,2,3,3.4567,"blue",undefined,null,["Kartik",21]];
+undefined
+randomArray
+(8) [1, 2, 3, 3.4567, "blue", undefined, null, Array(2)]
+
+
+let arr = [1,2,3,[5,6,7,["Kartik","Mathur"]]];
+undefined
+arr
+(4) [1, 2, 3, Array(4)]
+arr[3]
+(4) [5, 6, 7, Array(2)]
+arr[3][3]
+(2) ["Kartik", "Mathur"]0: "Kartik"1: "Mathur"length: 2__proto__: Array(0)
+arr[3][3][0]
+"Kartik"
+
+
+-------------------------------------------------
+
+colors
+(4) ["blue", "orange", "yellow", "green"]
+colors.includes('orange');
+true
+colors.includes('white');
+false
+colors.indexOf('yellow')
+2
+colors.indexOf('red')
+-1
+colors
+(4) ["blue", "orange", "yellow", "green"]
+colors.reverse()
+(4) ["green", "yellow", "orange", "blue"]
+colors
+(4) ["green", "yellow", "orange", "blue"]
+
+
+------------------------------------------slice------
+
+
+fruits
+(6) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi"]
+fruits.slice(2,5);
+(3) ["Grapes", "Oranges", "Guava"]
+fruits
+(6) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi"]
+fruits.slice(3);
+(3) ["Oranges", "Guava", "Litchi"]
+
+
+------------------------------------------splice-------
+
+fruits
+(6) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi"]
+fruits.splice(2,3);
+(3) ["Grapes", "Oranges", "Guava"]
+fruits
+(3) ["Apple", "Mango", "Litchi"]
+fruits.splice(2,0,'Blue','Orange','green');
+[]
+fruits
+(6) ["Apple", "Mango", "Blue", "Orange", "green", "Litchi"]
+
+
+
+-----------------------------------------split-------
+
+let str = 'We are learning JS';
+undefined
+str
+"We are learning JS"
+str.split(' ');
+(4) ["We", "are", "learning", "JS"]
+let words = str.split(' ');
+undefined
+words
+(4) ["We", "are", "learning", "JS"]
+
+
+
+let url = 'http://abc.com/song.mp3';
+undefined
+url.split('/');
+(4) ["http:", "", "abc.com", "song.mp3"]
+url.split('/').pop();
+"song.mp3"
+
+-----------------------------------join----------------------
+
+let arr = [1,2,3,4,5];
+undefined
+arr.join('-');
+"1-2-3-4-5"
+arr.join('->');
+"1->2->3->4->5"
+
+
+---------------------------arrays are reference type---
+fruits
+(6) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi"]
+let fruitsCopy = fruits
+undefined
+fruitsCopy
+(6) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi"]
+fruitsCopy.push('Blue','Red','Aqua');
+9
+fruitsCopy
+(9) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi", "Blue", "Red", "Aqua"]
+fruits
+(9) ["Apple", "Mango", "Grapes", "Oranges", "Guava", "Litchi", "Blue", "Red", "Aqua"]

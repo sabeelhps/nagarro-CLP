@@ -1,0 +1,8 @@
+person
+{name: "Kartik", age: 21, favColor: Array(2), isAdult: true}
+person.name
+"Kartik"
+person.favColor
+(2) ["blue", "green"]
+person.isAdult
+true
