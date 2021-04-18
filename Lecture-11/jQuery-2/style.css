@@ -1,0 +1,14 @@
+.one {
+  background-color: lightblue;
+  border: 1px solid black;
+  color: palevioletred;
+}
+
+.two {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.three {
+  display: none;
+}
