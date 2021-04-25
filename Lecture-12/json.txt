@@ -1,0 +1,24 @@
+JSON Format
+
+{
+   "cars":[
+       {
+           "id":1,
+           "name":"Audi"
+       },
+        {
+           "id":2,
+           "name":"Scorpio"
+       },
+        {
+           "id":3,
+           "name":"SUV"
+       },
+        {
+           "id":4,
+           "name":"Ferrari",
+           "color":["Black","red"];
+       },
+       
+   ] 
+}
